@@ -1,0 +1,278 @@
+Sure, I'll remove the comments from your HTML code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelf and Desk</title>
+    <style>
+        body {
+            background-color: #40E0D0; 
+            margin: 0; 
+            font-family: Arial, sans-serif; 
+        }
+        
+        header {
+            background-color: #c7e9c0; 
+            padding: 10px 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+
+        header h1 {
+            margin: 0; 
+            color: #333; 
+        }
+
+        header nav ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+        }
+
+        header nav ul li {
+            margin-right: 20px; 
+        }
+
+        header nav ul li:last-child {
+            margin-right: 0; 
+        }
+
+        header nav ul li a {
+            text-decoration: none; 
+            color: #333; 
+        }
+
+        header .search-bar {
+            margin-right: 20px; 
+        }
+
+        header .search-bar input[type="text"] {
+            padding: 5px; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+        }
+
+        header .search-bar button {
+            padding: 5px 10px; 
+            border: none; 
+            background-color: #333; 
+            color: #fff; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        header .search-bar button:hover {
+            background-color: #555; 
+        }
+
+        footer {
+            background-color: #add8e6; 
+            padding: 10px 0; 
+            text-align: center; 
+        }
+
+        .main-content {
+            display: flex; 
+            justify-content: space-between; 
+            padding: 20px; 
+        }
+
+        .frame {
+            width: calc(50% - 20px); 
+            height: auto; 
+            overflow: auto; 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            background-color: #CCCCFF; 
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; 
+        }
+
+        .gallery-item {
+            width: calc(50% - 20px); 
+            border: 10px solid black; 
+            box-sizing: border-box; 
+            position: relative;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-description {
+            position: absolute;
+            bottom: 10px; 
+            left: 10px; 
+            background-color: rgba(255, 255, 255, 0.7); 
+            padding: 5px; 
+            border-radius: 5px; 
+            font-size: 14px; 
+        }
+
+        .additional-info {
+            width: calc(25% - 20px); 
+            background-color: #87CEEB;
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+
+        .more-content {
+            width: calc(50% - 20px); 
+            background-color: #ffc0cb; 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+
+        .social-media {
+            margin-top: 20px; 
+        }
+
+        .social-media a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .advertisement {
+            margin-top: 20px;             
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LOVE IS ALL WE NEED</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>LOL</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="frame">
+            <section class="image-gallery">
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\image outside cafe.jpg" alt="Outside Cafe">
+                    <div class="image-description">Outside Cafe</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\pexels-alex-blokstra-2351450.jpg" alt="Table in Cafe">
+                    <div class="image-description">Table in Cafe</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\image cafe logo.jpg" alt="Glass Cafe">
+                    <div class="image-description">Glass Cafe</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\image coffee cafe.jpg" alt="Coffee Cafe">
+                    <div class="image-description">Coffee Cafe</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\image people cafe.jpg" alt="People in Cafe">
+                    <div class="image-description">People in Cafe</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="D:\Niyaz WT\panda\cafe\image tea coffe.jpg" alt="Tea and Coffee">
+                    <div class="image-description">Tea and Coffee</div>
+                </div>
+            </section>
+        </section>
+
+        <section class="additional-info">
+            <h2>About the Cafe</h2>
+            <p>Welcome to our cozy cafe! We strive to provide a warm and inviting atmosphere for our guests, whether you're stopping by for a quick coffee or planning to spend a leisurely afternoon with friends.</p>
+            <
+
+h2>Menu</h2>
+            <ul>
+                <li><strong>Coffee:</strong> Our coffee selection includes a variety of espresso-based drinks, brewed coffee, and specialty options such as lattes and cappuccinos.</li>
+                <li><strong>Tea:</strong> Enjoy a relaxing cup of tea with our selection of herbal, green, and black teas sourced from around the world.</li>
+                <li><strong>Snacks:</strong> Pair your beverage with one of our delicious snacks, including pastries, sandwiches, and fresh baked goods.</li>
+                <li><strong>Desserts:</strong> Indulge your sweet tooth with our assortment of cakes, cookies, and other delectable treats.</li>
+            </ul>
+        </section>
+
+        <section class="more-content">
+            <h2>More Content</h2>
+  
+            <p>چاندنی کی روشنی میں پیار کی باتیں کرتے ہیں
+            دل کی باتوں کو محفل میں انکھوں سے کہتے ہیں
+
+            چاند کی طرح جلتا ہے دل ہمارا بھی
+            پیار کے جادو میں، ہم اپنی محبت کے سپنے دیکھتے ہیں
+
+            روشنی میں چاند کی طرح، تمہاری محبت کی گت گائیں
+            ہم بھی تاروں کو دیکھتے ہیں، تمہارے اشاروں کی طرح، جو ہمیں بلاتے ہیں
+
+            ہر رات، جب چاند نکلتا ہے
+            ہم بھی تمہاری یادوں کی طرح، جگتے ہیں، رات بھر بھر کر
+
+            تمہاری یادوں کی روشنی میں، ہم جیتے ہیں
+            چاند کی طرح، ہم بھی تمہاری محبت کی روشنی میں، نکلتے ہیں</p>
+            
+            <p>Love is all we need. It's the guiding light that leads us through the darkest nights and fills our hearts with warmth. In love, we find solace, strength, and the courage to face life's challenges with unwavering hope.</p>
+
+            <p>Amidst the chaos of life's fleeting dance,</p>
+            <p>We find solace in each fleeting glance.</p>
+            <p>Beneath the moon's soft, shimmering light,</p>
+            <p>Our souls entwine, our spirits take flight.</p>
+
+            <div class="advertisement">
+                <h2>Advertisement</h2>
+                <p>Get 20% off on all coffee items this weekend!</p>
+            </div>
+
+            <div class="social-media">
+                <a href="#lol" target="_blank">Facebook</a><br>
+                <a href="#lol" target="_blank">Twitter</a><br>
+                <a href="#lol" target="_blank">Instagram</a><br>
+                <a href="#lol" target="_blank">LinkedIn</a><br>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>LOVE IS ALL WE NEED!!</p>
+    </footer>
+</body>
+</html>
+```
